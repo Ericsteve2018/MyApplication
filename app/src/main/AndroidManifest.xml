@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomePageA1" />
-        <activity android:name=".searchFragment"></activity>
+        <activity android:name=".searchFragment" />
+        <activity android:name=".MakeFragment" />
+        <activity android:name=".StatutFragment"></activity>
     </application>
 
 </manifest>
