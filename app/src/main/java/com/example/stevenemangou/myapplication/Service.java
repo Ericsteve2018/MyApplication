@@ -10,5 +10,5 @@ public class Service {
     public String getDepartureTown(){return DepartureTown;}
 
     public String getArrivalTown(){return ArrivalTown;}
-    
+
 }
