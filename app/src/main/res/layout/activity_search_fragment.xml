@@ -3,26 +3,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <EditText
-        android:layout_marginTop="20dp"
-        android:id="@+id/DepartureTown"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:hint="DepartureTown"
-        android:inputType="textPersonName"
-        android:gravity="center"/>
-
-    <EditText
-        android:layout_marginTop="100dp"
-        android:id="@+id/ArrivalTown"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:hint="ArrivalTown"
-        android:inputType="textPersonName"
-        android:gravity="center"/>
+    android:background="@android:color/holo_blue_light">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text ="this search fragment"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"/>
+    />
 
 
 </RelativeLayout>

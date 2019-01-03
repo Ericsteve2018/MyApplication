@@ -8,9 +8,9 @@
 
     <item android:id="@+id/Bottonbarplus"
         android:icon="@drawable/plus"
-        android:title="search"></item>
+        android:title="plus"></item>
 
     <item android:id="@+id/Bottonbarstatus"
         android:icon="@drawable/status"
-        android:title="search"></item>
+        android:title="status"></item>
 </menu>
