@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public boolean onCreateOptionMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.BottomNavigation,menu);
+        getMenuInflater().inflate(R.menu.bottomnavigation,menu);
 
         return true;
     }
