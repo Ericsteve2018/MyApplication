@@ -7,6 +7,7 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.view.MenuItem;
 import android.support.annotation.NonNull;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,9 +52,12 @@ public class MainActivity extends AppCompatActivity {
             };
 
 
+
     public boolean onCreateOptionMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.BottomNavigation,menu);
+        getMenuInflater().inflate(R.menu.bottomnavigation,menu);
 
         return true;
     }
+
+    Button ButtonRegistred = findViewById(R.id.registred);
 }
